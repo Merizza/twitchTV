@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto:400,500");
+body {
+  background-color: #4b367c;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #fff, -5px -2px 5px #fff;
+  color: #4b367c;
+}
+
+#logo-container {
+  width: 100%;
+  margin: 10px auto;
+}
+#logo-container #logo {
+  margin: auto;
+  width: 50%;
+  padding: 2%;
+}
+#logo-container #logo li {
+  background-color: #fff;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: block;
+  height: 80px;
+  list-style: none;
+  margin-bottom: 10px;
+  position: relative;
+}
+#logo-container #logo li:hover {
+  background-color: #4b367c;
+}
+#logo-container #logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: opacity 0.5s ease;
+}
+#logo-container #logo img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+#logo-container #logo span {
+  position: absolute;
+  width: 500px;
+  bottom: 10px;
+  transform: translateX(10px);
+  font-weight: medium;
+  font-size: 20px;
+  color: #fff;
+}
+#logo-container #logo #description {
+  position: absolute;
+  top: 10px;
+  font-size: initial;
+  color: #4b367c;
+}

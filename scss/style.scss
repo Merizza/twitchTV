@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto:400,500');
+
+$purple: #4b367c;
+
+body {
+  background-color: $purple;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #fff, -5px -2px 5px #fff;
+  color: $purple;
+}
+
+#logo-container {
+  width: 100%;
+  margin: 10px auto;
+  //background-color: blue;
+#logo {
+  margin: auto;
+  width: 50%;
+  padding: 2%;
+  li {
+    background-color: #fff;
+    border-top-left-radius:40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+    height: 80px;
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    &:hover {
+      background-color: $purple;
+    }
+  }
+  img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: opacity 0.5s ease;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  span {
+    position: absolute;
+    width: 500px;
+    bottom: 10px;
+    transform: translateX(10px);
+    font-weight: medium;
+    font-size: 20px;
+    color: #fff;
+  }
+  #description {
+    position: absolute;
+    top: 10px;
+    font-size: initial;
+    color: $purple;
+  }
+}
+}  
